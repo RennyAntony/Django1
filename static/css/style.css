@@ -1,0 +1,22 @@
+/*
+common
+*************************/
+.content {
+    max-width :600px;
+    height :100%;
+    margin:0 auto;
+    border-left : 1px solid #ccc;
+    border-right : 1px solid #ccc}
+
+/*
+Post
+*************************/
+.posts li{
+    display:flex;
+}
+.posts li.logo{
+    flex-basis:15%;
+}
+.posts li .logo img{
+    width:60%;
+}
