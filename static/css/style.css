@@ -39,13 +39,38 @@ Post
 .posts li{
     display:flex;
     border-bottom : 1px solid #ccc;
-    padding :17px; 
+    padding :20px 40px;
+    position:relative; 
+    list-style:none;
 }
+
+.posts li .menu_icon{
+    width:30px;
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+
 .posts li .logo{
     flex-basis:15%;
 }
 .posts li .logo img{
     width:60%;
+}
+
+.posts li .menu{
+ display:none;
+ position:absolute;
+ top:40px;
+ right:15px;
+ border:1px solid #ccc;
+ background-color:white;
+ padding:10px 15px;
+ font-size:13px;
+ border-radius :3px;
+}
+.posts li .menu a {
+text-decoration:none; 
 }
 
 .posts li .name_body {
